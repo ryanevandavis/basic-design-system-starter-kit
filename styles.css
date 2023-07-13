@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 20%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+}
+.regular {
+    font-weight:400;
+}
+.italic {
+    font-weight:400;
+    font-style: italic;
+}
+.bold {
+    font-weight:700;
+}
+h3.nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 14px;
+}
+li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 4px 0 8px 0;
+    color: #b5b5b58c;
+}
+
+.hero-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    background-position-x: 0px;
+    background-position-y: 50%;
+    background-size: cover;
+    padding: 60px 0 120px 0;
+
+}
+
+.content {
+    margin: 32px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 24px;
+}
+.swatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 12px;
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+}
+.swatch.primary {
+    background-color: red;
+}
+.swatch.secondary {
+    background-color: green;
+}
+.swatch.tertiary {
+    background-color: blue;
+}
+
+.font-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details {
+    margin: 0 auto 24px 0;
+}
