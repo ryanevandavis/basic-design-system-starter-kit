@@ -25,13 +25,16 @@ h3 {
 }
 .regular {
     font-weight:400;
+    color: #b5b5b58c;
 }
 .italic {
     font-weight:400;
     font-style: italic;
+    color: #b5b5b58c;
 }
 .bold {
     font-weight:700;
+    color: #b5b5b58c;
 }
 h3.nunito-sans {
     font-family: 'Nunito Sans', sans-serif;
